@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(aquamarine 0%, yellowgreen 100%);
+}
+
+.label {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 20;
+    font-weight: lighter;
+    background-color: transparent;
+}
+
+.instructor {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+}
+
+#mainheader {
+    font-family: 'Pacifico', cursive;
+    font-size: 50;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+#camera {
+    width: 500;
+    height: 400;
+    border: 2pt;
+    border-color: green;
+}
+
+.image {
+    width: 50%;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.imageholder {
+    display: inline-block;
+}
+
+#image1:hover {
+    width: 49%;
+    box-shadow: inset;
+}
+
+#image2:hover {
+    width: 49%;
+    box-shadow: inset;
+}
+
+#image3:hover {
+    width: 49%;
+    box-shadow: inset;
+}
+
+#resultShow {
+    padding: 5px;
+}
+
+#footer {
+    text-align: center;
+    height: 50px;
+    width: 1000px;
+    padding: 15px;
+    background-color: wheat;
+    position: fixed;
+    left: 250;
+    bottom: 10;
+}
